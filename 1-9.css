@@ -57,7 +57,24 @@
 }
 
 @media screen and (max-width:768px) {
+	.main {
+		width: 90%;
+	}
 	.box {
+		width: 100%;
 		float: none;
+		margin-bottom: 20px;
+	}
+	.box:last-child {
+		margin-bottom: 0;
+	}
+	.image1 {
+		width: 100%;
+	}
+	.image2 {
+		width: 100%;
+	}
+	.image3 {
+		width: 100%;
 	}
 }
